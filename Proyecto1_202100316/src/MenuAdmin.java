@@ -131,9 +131,9 @@ public class MenuAdmin extends javax.swing.JFrame {
             .addGroup(layout.createSequentialGroup()
                 .addGap(60, 60, 60)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
-                    .addComponent(Registrar)
                     .addComponent(Tranferencia)
-                    .addComponent(Cuenta))
+                    .addComponent(Cuenta)
+                    .addComponent(Registrar))
                 .addGap(56, 56, 56)
                 .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
                     .addComponent(Deposito)
@@ -252,7 +252,5 @@ public class MenuAdmin extends javax.swing.JFrame {
     private javax.swing.JButton Tranferencia;
     private javax.swing.JButton Visualizar;
     private javax.swing.JButton jButton4;
-    private javax.swing.JButton jButton5;
-    private javax.swing.JButton jButton6;
     // End of variables declaration//GEN-END:variables
 }

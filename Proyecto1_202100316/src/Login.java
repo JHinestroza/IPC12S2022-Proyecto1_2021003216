@@ -113,7 +113,7 @@ public class Login extends javax.swing.JFrame {
 
     private void IngresarActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_IngresarActionPerformed
         // TODO add your handling code here:
-        String usuario = "administrador";
+        //String usuario = "administrador";
         //System.out.println(Contraseña.getText());
         if (Usuario.getText().equals("administrador") && Contraseña.getText().equals("202100316")) {
             PantallaInicio PantallaPrincipal = new PantallaInicio();
